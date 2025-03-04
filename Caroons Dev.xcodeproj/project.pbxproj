@@ -14,6 +14,10 @@
 		8D4C07AD2D7695BE003BBC48 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07AC2D7695BE003BBC48 /* Persistence.swift */; };
 		8D4C07B02D7695BE003BBC48 /* Caroons_Dev.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07AE2D7695BE003BBC48 /* Caroons_Dev.xcdatamodeld */; };
 		8D4C07BE2D7697F5003BBC48 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07BD2D7697F5003BBC48 /* RootView.swift */; };
+		8D4C07C12D769A6C003BBC48 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07C02D769A6C003BBC48 /* OnboardingView.swift */; };
+		8D4C07C32D769ACB003BBC48 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07C22D769ACB003BBC48 /* MyButton.swift */; };
+		8D4C07C52D769B45003BBC48 /* MyTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07C42D769B45003BBC48 /* MyTag.swift */; };
+		8D4C07C72D769BC5003BBC48 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07C62D769BC5003BBC48 /* MyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		8D4C07AC2D7695BE003BBC48 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8D4C07AF2D7695BE003BBC48 /* Caroons_Dev.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caroons_Dev.xcdatamodel; sourceTree = "<group>"; };
 		8D4C07BD2D7697F5003BBC48 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8D4C07C02D769A6C003BBC48 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8D4C07C22D769ACB003BBC48 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		8D4C07C42D769B45003BBC48 /* MyTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTag.swift; sourceTree = "<group>"; };
+		8D4C07C62D769BC5003BBC48 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 				8D4C07B92D76971A003BBC48 /* Explore */,
 				8D4C07B82D769715003BBC48 /* Home */,
 				8D4C07B72D76970F003BBC48 /* Auth */,
+				8D4C07C02D769A6C003BBC48 /* OnboardingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +138,9 @@
 		8D4C07BC2D769756003BBC48 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8D4C07C22D769ACB003BBC48 /* MyButton.swift */,
+				8D4C07C42D769B45003BBC48 /* MyTag.swift */,
+				8D4C07C62D769BC5003BBC48 /* MyTextField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -210,9 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4C07C52D769B45003BBC48 /* MyTag.swift in Sources */,
 				8D4C07AD2D7695BE003BBC48 /* Persistence.swift in Sources */,
+				8D4C07C32D769ACB003BBC48 /* MyButton.swift in Sources */,
+				8D4C07C72D769BC5003BBC48 /* MyTextField.swift in Sources */,
 				8D4C07A62D7695BB003BBC48 /* ContentView.swift in Sources */,
 				8D4C07A42D7695BB003BBC48 /* Caroons_DevApp.swift in Sources */,
+				8D4C07C12D769A6C003BBC48 /* OnboardingView.swift in Sources */,
 				8D4C07B02D7695BE003BBC48 /* Caroons_Dev.xcdatamodeld in Sources */,
 				8D4C07BE2D7697F5003BBC48 /* RootView.swift in Sources */,
 			);
