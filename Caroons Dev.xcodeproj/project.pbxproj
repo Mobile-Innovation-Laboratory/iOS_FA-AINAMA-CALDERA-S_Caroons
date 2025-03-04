@@ -13,6 +13,7 @@
 		8D4C07AB2D7695BE003BBC48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4C07AA2D7695BE003BBC48 /* Preview Assets.xcassets */; };
 		8D4C07AD2D7695BE003BBC48 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07AC2D7695BE003BBC48 /* Persistence.swift */; };
 		8D4C07B02D7695BE003BBC48 /* Caroons_Dev.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07AE2D7695BE003BBC48 /* Caroons_Dev.xcdatamodeld */; };
+		8D4C07BE2D7697F5003BBC48 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C07BD2D7697F5003BBC48 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		8D4C07AA2D7695BE003BBC48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D4C07AC2D7695BE003BBC48 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8D4C07AF2D7695BE003BBC48 /* Caroons_Dev.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caroons_Dev.xcdatamodel; sourceTree = "<group>"; };
+		8D4C07BD2D7697F5003BBC48 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,12 @@
 		8D4C07A22D7695BB003BBC48 /* Caroons Dev */ = {
 			isa = PBXGroup;
 			children = (
+				8D4C07BC2D769756003BBC48 /* Components */,
+				8D4C07BA2D76973E003BBC48 /* Utils */,
+				8D4C07B62D7696C0003BBC48 /* Views */,
 				8D4C07A32D7695BB003BBC48 /* Caroons_DevApp.swift */,
 				8D4C07A52D7695BB003BBC48 /* ContentView.swift */,
+				8D4C07BD2D7697F5003BBC48 /* RootView.swift */,
 				8D4C07A72D7695BE003BBC48 /* Assets.xcassets */,
 				8D4C07AC2D7695BE003BBC48 /* Persistence.swift */,
 				8D4C07AE2D7695BE003BBC48 /* Caroons_Dev.xcdatamodeld */,
@@ -71,6 +77,67 @@
 				8D4C07AA2D7695BE003BBC48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D4C07B62D7696C0003BBC48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D4C07B92D76971A003BBC48 /* Explore */,
+				8D4C07B82D769715003BBC48 /* Home */,
+				8D4C07B72D76970F003BBC48 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D4C07B72D76970F003BBC48 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		8D4C07B82D769715003BBC48 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8D4C07B92D76971A003BBC48 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		8D4C07BA2D76973E003BBC48 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D4C07BF2D769873003BBC48 /* Services */,
+				8D4C07BB2D76974B003BBC48 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8D4C07BB2D76974B003BBC48 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D4C07BC2D769756003BBC48 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8D4C07BF2D769873003BBC48 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +214,7 @@
 				8D4C07A62D7695BB003BBC48 /* ContentView.swift in Sources */,
 				8D4C07A42D7695BB003BBC48 /* Caroons_DevApp.swift in Sources */,
 				8D4C07B02D7695BE003BBC48 /* Caroons_Dev.xcdatamodeld in Sources */,
+				8D4C07BE2D7697F5003BBC48 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
